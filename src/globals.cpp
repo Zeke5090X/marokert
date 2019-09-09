@@ -1,6 +1,6 @@
 #include "main.h"
-pros::Controller master(pros::E_CONNTROLLER_MASTER);
-pros::Controller slave(pros::E_CONNTROLLER_PARTNER);
+pros::Controller master(pros::E_CONTROLLER_MASTER);
+pros::Controller slave(pros::E_CONTROLLER_PARTNER);
 
 pros::Motor FL(1);
 pros::Motor BL(2);
